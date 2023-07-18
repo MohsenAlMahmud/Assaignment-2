@@ -382,3 +382,77 @@ section {
     font-size: 20px;
     font-weight: 600;
 }
+
+/* Footer Part  Start */
+footer {
+    background-color: #0B0223;
+
+}
+.footer-all{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 120px 0;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-terms {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title h3 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-title img {
+    width: 86.041px;
+    height: 40px;
+}
+
+.footer-list p {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-icons p {
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.footer-terms p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
