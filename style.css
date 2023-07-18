@@ -219,10 +219,62 @@ header h1 {
     font-weight: 400;
     line-height: 30px;
 }
-.online-games-cards-container{
+
+.online-games-cards-container {
     max-width: 1400px;
     width: 80%;
     display: flex;
     margin: 0 auto;
 
 }
+
+/* Play instantly Part Start */
+
+.play-instantly {
+    max-width: 1400px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: right;
+    gap: 200px;
+    align-items: center;
+}
+.play-instantly-text {
+
+}
+
+.play-instantly-text h1 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-instantly-text p {
+    width: 353px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.play {
+    color: #F948B2;
+}
+
+.play-instantly-img1 {
+    position: absolute;
+}
+
+.play-instantly-img2 {
+    position: relative;
+    margin-top: 350px;
+    margin-left: -170px;
+
+}
+
+.play-instantly-img {
+    margin: 0 485px 0 0;
+}
+
