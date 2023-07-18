@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    ;
+}
+
+/* Common Style */
+.primary-color {
+    color: #FF42A5;
+}
+
+/* Navigetion Style Stert Here */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.nav-title h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-title img {
+    width: 86.041px;
+    height: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-menu p {
+    color: #3C354F;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.nav-title-icons {
+    padding: 8px 24px;
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+}
+
+.youtube {
+    color: #F61C0D;
+    width: 33.916px;
+    height: 24px;
+}
+
+.tiktok {
+    width: 24px;
+    height: 24px;
+    /* color: #08FFF9, #000000; */
+}
