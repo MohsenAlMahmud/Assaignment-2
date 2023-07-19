@@ -201,6 +201,7 @@ header h1 {
     background-color: #FF42A5;
     font-size: 20px;
     font-weight: 600;
+    border: none;
 }
 
 .unlesh {
@@ -211,6 +212,7 @@ header h1 {
 }
 
 /* Onlyn Games Part Start Here */
+
 .online-games {
     padding-bottom: 120px;
 }
@@ -241,15 +243,8 @@ header h1 {
     display: flex;
     margin: 0 auto;
     gap: 10px;
-
-}
-.hover-img{
-
 }
 
-.hover-img:hover {
-
-}
 
 /* Play instantly Part Start */
 
@@ -352,6 +347,7 @@ section {
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
+    border: none;
 
 }
 
