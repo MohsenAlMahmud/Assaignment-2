@@ -18,6 +18,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
 
 }
 
@@ -92,6 +94,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    padding: 50px 0 0 0;
 }
 .header-img img{
     width: 100%;
@@ -159,6 +162,7 @@ header h1 {
     width: 80%;
     display: flex;
     margin: 0 auto;
+    padding-bottom: 150px;
 
 }
 .gamer-img img{
@@ -205,7 +209,9 @@ header h1 {
 }
 
 /* Onlyn Games Part Start Here */
-.online-games {}
+.online-games {
+    padding-bottom: 120px;
+}
 
 .online-game-heading h1 {
     color: #0B0223;
@@ -253,6 +259,7 @@ header h1 {
     justify-content: right;
     gap: 200px;
     align-items: center;
+    padding-bottom: 120px;
 }
 
 .play-instantly-text h1 {
