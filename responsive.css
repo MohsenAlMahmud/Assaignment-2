@@ -20,5 +20,71 @@
     }
     .header-btn{
         gap: 5px;
+        margin-top: 50px;
+    }
+    .sign-in {
+        padding: 15px 30px;
+        
+    }
+    .rogue {
+        padding: 14px 25px;
+        
+    }
+    header{
+        /* width: 100%; */
+        /* height: 100%; */
+    }
+    .header-img{
+        /* height: 100%; */
+        width: 20vw;
+    }
+    .gamer {
+        
+        flex-direction: column;
+    }
+    .gamer-body p{
+        text-align: center;
+    }
+    .gamer-btn-div{
+        flex-direction: column;
+    }
+    .gamer-btn{
+        padding: 15px 20px;
+    }
+    .online-games-cards-container {
+        
+        flex-direction: column;
+    
+    }
+    .play-instantly {
+        flex-direction: column;
+    }
+    .play-instantly-img1{
+        width: 100%;
+        margin: 10px 10px 10px 10px;
+    }
+    .careers {
+        flex-direction: column;
+        text-align: left;
+    }
+    .list-1 {
+        flex-direction: column;
+    }
+    .list-2 {
+        flex-direction: column;
+    }
+    .footer-title {
+        
+        flex-direction: column;
+    }
+    .footer-list {
+        flex-direction: column;
+    }
+    .footer-icons {
+       flex-direction: column;
+       align-items: center;
+    }
+    .footer-terms {
+        flex-direction: column;
     }
 }

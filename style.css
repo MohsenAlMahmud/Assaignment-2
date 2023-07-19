@@ -93,8 +93,11 @@ header {
     justify-content: space-between;
     margin: 0 auto;
 }
+.header-img{
+}
 
-.header-text {}
+.header-text {
+}
 
 header h6 {
     color: #0B0223;
@@ -228,6 +231,13 @@ header h1 {
     gap: 10px;
 
 }
+.hover-img{
+
+}
+
+.hover-img:hover {
+
+}
 
 /* Play instantly Part Start */
 
@@ -354,20 +364,29 @@ section {
 
 .list-2 {
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-around;
+    margin: 0 auto;
 }
 
 .catagory-name {
     display: flex;
     gap: 16px;
     width: 262px;
-    height: 80px;
+    height: 100px;
     border-radius: 50px;
     background: #FFF;
-    border: 1px solid #FF42A5;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.catagory-name:hover {
+    border: 1px solid #FF42A5;
+}
+
+.catagory-name p:hover {
+    color: #FF42A5;
 }
 
 .catagory-name img {
@@ -383,12 +402,14 @@ section {
     font-weight: 600;
 }
 
+
 /* Footer Part  Start */
 footer {
     background-color: #0B0223;
 
 }
-.footer-all{
+
+.footer-all {
     text-align: center;
     width: 100%;
     margin: 0 auto;
@@ -411,6 +432,8 @@ footer {
 .footer-icons {
     display: flex;
     justify-content: center;
+    /* width: 50px; */
+    /* height: 50px; */
 }
 
 .footer-terms {
@@ -455,4 +478,18 @@ footer {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+}
+
+.icon-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: #0B0223;
+    border: none;
+}
+
+.icon-btn:hover {
+    color: red;
 }
