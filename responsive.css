@@ -1,3 +1,39 @@
+@media screen and (max-width:768px){
+    
+    .nav-container {
+        flex-direction: column;
+    
+    }
+    header {
+        flex-direction: column;
+    }
+    .gamer {
+        flex-direction: column;
+    }
+    .online-games-cards-container {
+       flex-direction: column;
+    }
+    .games-catagory{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .list-2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+
+} 
+    
+
+
+
+
 @media screen and (max-width:425px) {
     nav {
         flex-direction: column;
