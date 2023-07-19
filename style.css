@@ -113,7 +113,7 @@ header h1 {
     font-size: 95px;
     font-weight: 800;
     background-image: linear-gradient(rgba(249, 72, 178, 1), rgba(135, 88, 241, 1));
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     margin: 0px;
 }
@@ -170,7 +170,7 @@ header h1 {
     font-size: 48px;
     font-weight: 700;
     background-image: linear-gradient(rgba(249, 72, 178, 1), rgba(135, 88, 241, 1));
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
 }
 
@@ -215,7 +215,7 @@ header h1 {
     font-size: 48px;
     font-weight: 700;
     background-image: linear-gradient(rgba(249, 72, 178, 1), rgba(135, 88, 241, 1));
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
 }
 
