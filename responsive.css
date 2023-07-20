@@ -1,4 +1,4 @@
-@media screen and (min-width:768px) {
+@media screen and (min-width:426px) and (max-width:768px){
 
     .nav-container {
         flex-direction: column;
@@ -19,12 +19,12 @@
     }
 
     .online-games-cards-container {
-        width: 100%;
-        margin: 0 auto;
-        gap: 10px;
+
         flex-direction: column;
+        margin: auto 20px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
     }
 
     .play-instantly-text h1 {
