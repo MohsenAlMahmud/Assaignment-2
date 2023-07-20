@@ -1,51 +1,121 @@
-@media screen and (max-width:768px){
-    
+@media screen and (max-width:768px) {
+
     .nav-container {
         flex-direction: column;
-    
+
     }
+
     header {
         flex-direction: column;
     }
+
     .gamer {
         flex-direction: column;
     }
+
+    .online-games {
+        padding-bottom: 120px;
+        text-align: center;
+    }
+
     .online-games-cards-container {
-       flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        gap: 10px;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .play-instantly-text h1 {
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+
+    .play-instantly-text p {
+        text-align: center;
+    }
+
+    .play-instantly {
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .play-instantly-img {
+        margin: 75px auto;
+    }
+
+    .play-instantly-img1 img {
+        width: 75%;
+        margin-left: 25%;
+    }
+
+    .play-instantly-img2 img {
+        width: 45%;
+        margin-top: -400px;
+    }
+
+    .play-instantly-img1 {
+        position: static;
+        width: 100%;
+        
     }
 
 
+    .play-instantly-img2 {
+        position: relative;
+        margin-top: 170px;
+        margin-left: 20px;
+        width: 100%;
+    }
 
-    .games-catagory{
+    .careers {
+        width: 90%;
+        display: flex;
+
+    }
+    .careers-text{
+        margin-bottom: 30px;
+    }
+
+    .games-catagory {
         flex-direction: column;
     }
-    .list-1{
+
+    .list-1 {
         width: 100%;
         margin: auto;
         padding: 0%;
         flex-wrap: wrap;
     }
-    .list-2{
+
+    .list-2 {
         flex-wrap: wrap;
         width: 100%;
         margin: auto;
         padding: 0%;
     }
+
     .catagory-name {
-        
+
         gap: 16px;
         width: 120px;
         height: 80px;
     }
+
     .catagory-name p {
         color: #0B0223;
         font-size: 10px;
         font-weight: 300;
     }
-    
 
-} 
-    
+
+}
+
 
 
 
@@ -119,6 +189,7 @@
     }
 
     .play-instantly-text h1 {
+        margin: 0 auto;
         text-align: center;
     }
 
@@ -127,9 +198,39 @@
     }
 
     .play-instantly {
+        width: 100%;
         flex-direction: column;
+        gap: 0;
+        padding: 0;
+        margin: 0;
     }
 
+    .play-instantly-img {
+        margin: 75px auto;
+    }
+
+    .play-instantly-img1 img {
+        width: 85%;
+        margin-left: 15%;
+    }
+
+    .play-instantly-img2 img {
+        width: 45%;
+    }
+
+    .play-instantly-img1 {
+        position: absolute;
+        width: 80%;
+    }
+
+
+    .play-instantly-img2 {
+        position: relative;
+        margin-top: 170px;
+        margin-left: 20px;
+        width: 100%;
+
+    }
 
     .careers {
         flex-direction: column;
@@ -137,36 +238,35 @@
         margin: 0;
     }
 
-    .games-catagory{
+    .games-catagory {
         margin: 0;
         padding: 0;
         display: grid;
     }
 
-    .list-1 {
-    }
+    .list-1 {}
 
-    .list-2 {
-    }
+    .list-2 {}
 
-    .catagory-name{
+    .catagory-name {
         width: 120px;
         height: 50px;
         gap: 5px;
 
     }
+
     .catagory-name img {
         width: 20px;
         height: 20px;
         border-radius: 50px;
     }
-    
+
     .catagory-name p {
         color: #0B0223;
         font-size: 10px;
         font-weight: 600;
     }
-    
+
     .footer-list {
         flex-direction: column;
         display: grid;
@@ -186,7 +286,8 @@
     .footer-terms {
         flex-direction: column;
     }
-    .footer-copyright{
+
+    .footer-copyright {
         flex-direction: column;
         text-align: center;
     }

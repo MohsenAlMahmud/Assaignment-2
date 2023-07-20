@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
     ;
+    /* margin: 0; */
+    /* border: 2px solid red; */
 }
 
 /* Common Style */
@@ -14,7 +16,6 @@
 /* Navigation Style Start Here */
 
 nav {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -279,13 +280,13 @@ header h1 {
     color: #F948B2;
 }
 
-.play-instantly-img1 {
+.play-instantly-img1{
     position: absolute;
     width: 100%;
 }
 
 
-.play-instantly-img2 {
+.play-instantly-img2{
     position: relative;
     margin-top: 350px;
     margin-left: -170px;
@@ -362,7 +363,6 @@ section {
     width: 100%;
     margin: 0 auto;
     padding: 120px 0;
-
 }
 
 .list-1 {
@@ -416,7 +416,6 @@ section {
 /* Footer Part  Start */
 footer {
     background-color: #0B0223;
-
 }
 
 .footer-all {
