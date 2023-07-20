@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
 
     .nav-container {
         flex-direction: column;
@@ -169,7 +169,11 @@
 
         flex-direction: column;
     }
-
+    .gamer-body h3 {
+        text-align: center;
+        font-size: 40px;
+        
+    }
     .gamer-body p {
         text-align: center;
     }
@@ -181,10 +185,14 @@
     .gamer-btn {
         padding: 15px 20px;
     }
-
+    .unlesh {
+        font-size: 18px;
+        font-weight: 700;
+    }
     .online-games-cards-container {
 
         flex-direction: column;
+        margin: auto 20px;
 
     }
 
@@ -237,16 +245,24 @@
         text-align: left;
         margin: 0;
     }
-
+    .careers-text h1 {
+        width: 380px;
+    }
+    .careers-text {
+        width: 100%;
+    }
     .games-catagory {
-        margin: 0;
         padding: 0;
-        display: grid;
     }
 
-    .list-1 {}
+    .list-1 {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
 
-    .list-2 {}
+    .list-2 {
+        flex-wrap: wrap;
+    }
 
     .catagory-name {
         width: 120px;
